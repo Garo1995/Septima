@@ -381,6 +381,8 @@ p{
 }
 .our-team-photo{
     width: 100%;
+    max-width: 2020px;
+    margin: 0 auto;
 }
 
 .our-team-info{
