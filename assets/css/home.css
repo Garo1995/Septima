@@ -324,7 +324,7 @@ p{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 1000%;
+    width: 100%;
 }
 .branding-qr{
     position: absolute;
@@ -365,6 +365,35 @@ p{
 .icon-eye{
     content: url("../img/eye.svg");
 }
+
+.icon-ket{
+    content: url("../img/ket.png");
+    position: relative;
+    top: 18px;
+    right: 8px;
+}
+
+
+
+
+.technology-stack{
+    display: none;
+}
+
+
+
+.business-mobile{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 .our-team-main{
@@ -593,6 +622,9 @@ p{
     top: 0;
     width: 100%;
 }
+.stunning-img-mobile{
+    display: none;
+}
 .stunning-title{
     position: relative;
     z-index: 2;
@@ -619,7 +651,9 @@ p{
     margin-top: 24px;
 }
 
-
+.stunning-mobile{
+    display: none;
+}
 .stunning-wrap{
     margin-top: 60px;
     justify-content: space-between;
@@ -972,7 +1006,9 @@ footer .footer-soc small{
 }
 
 
-
+.btn-white{
+    display: none;
+}
 @media (max-width: 1240px){
     .service-1 {
         width: 350px;
@@ -1245,9 +1281,8 @@ footer .footer-soc small{
         display: none;
     }
     .contact-number {
-        gap: 16px;
+        gap: 16px 24px;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
     .contact-number p{
         width: 100%;
@@ -1282,5 +1317,197 @@ footer .footer-soc small{
         margin-top: 40px;
     }
 
+    .business-content{
+        display: none;
+    }
+    .business-mobile{
+        display: block;
 
+        margin-top: 40px;
+    }
+    .your-business-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .your-business-title {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    .your-business-title h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .your-business-title h2 {
+        font-size: 40px;
+    }
+    .your-business-text {
+        max-width: 331px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .our-team-cicle{
+        width: 100%;
+        padding-bottom: 35px;
+        border-bottom: 1px solid rgba(217, 217, 217, 1);
+        display: flex;
+        justify-content: center;
+    }
+    .our-team-info{
+        margin-top: 40px;
+        max-width: 350px;
+    }
+    .icon-ket {
+        right: 2px;
+    }
+    .stunning-title h2 {
+        max-width: 500px;
+    }
+    .services-main h2 {
+        text-align: left;
+    }
+
+    .branding-qr{
+        display: none;
+    }
+    .branding-logo {
+        margin: 30px auto 0;
+        border-radius: 17px;
+    }
+
+    .services-box {
+        height: 280px;
+        padding: 24px 20px;
+    }
+
+    .lending-serv img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .services-text p {
+        line-height: 19px;
+    }
+    .service-4 .services-text h4 {
+        max-width: 200px;
+        width: 100%;
+    }
+   .services-text h4 {
+        line-height: 130%;
+    }
+
+    .service-8 .services-text p br{
+        display: none;
+    }
+    .technology-stack {
+        display: block;
+        margin-top: 140px;
+    }
+    .technology-stack h2 {
+        text-align: center;
+    }
+    .technology-col{
+        margin-top: 80px;
+        gap: 70px;
+        position: relative;
+        align-items: center;
+    }
+    .technology-col:before {
+        content: "";
+        position: absolute;
+        top: -38px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url("../img/fon-keter.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 238px;
+        height: 662px;
+    }
+    .technology-box{
+        gap: 16px;
+        position: relative;
+        z-index: 2;
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .technology-box img{
+        width: 131px;
+    }
+    .technology-box h4{
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: -0.2px;
+        color: rgba(11, 13, 16, 1);
+    }
+    .technology-box p{
+        text-align: center;
+        font-size: 15px;
+        color: rgba(95, 99, 104, 1);
+    }
+    .technology-photo{
+        margin-top: 120px;
+        display: flex;
+    }
+    .technology-photo img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .stunning-desc{
+        display: none;
+    }
+    .stunning-mobile{
+        display: block;
+    }
+    .stunning-img-desc{
+        display: none;
+    }
+    .stunning-img-mobile{
+        display: block;
+    }
+    .stunning-map {
+        left: -14px;
+        width: 108%;
+    }
+    .stunning-liners {
+        padding: 16px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .stunning-liners p{
+        display: none;
+    }
+
+    .btn-white{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 19px;
+        color: rgba(0, 0, 0, 1);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        margin: 16px 0;
+        width: max-content;
+    }
+    .stunning-col {
+        border-top: 1px solid rgba(41, 41, 41, 1);
+    }
+   .latest-news-title h2 {
+        font-size: 29px;
+    }
+    .icon-arrow-rig {
+        width: 16px;
+        filter: grayscale(1);
+    }
+    .latest-news-href {
+        color: rgba(95, 99, 104, 1);
+    }
 }
